@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Web App</title>
+</head>
+<body>
+    <h1>Welcome to the Sample Web Application!</h1>
+    <p>This is a basic HTML and JavaScript application running in a Docker container.</p>
+    <script>
+        console.log('Hello from JavaScript!');
+    </script>
+</body>
+</html>
