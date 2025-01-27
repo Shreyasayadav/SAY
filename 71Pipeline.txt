@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+    
+    environment{
+    JAVA_HOME = 'C:\\Program Files\\Java\\jdk-17'
+    }
+    
+    tools{ 
+        maven 'Maven 3.9.9'
+    }
+
+    stages {
+        stage('Git') {
+            steps {
+                git url:'https://github.com/Shreyasayadav/hello-world.git'
+            }
+        }
+        stage('build') {
+            steps {
+                bat "mvn clean install"
+            }
+        }
+    }
+}
