@@ -1,0 +1,6 @@
+sonar.projectKey=Exam
+sonar.projectName=Exam
+sonar.projectVersion=1.0
+sonar.language=java
+sonar.tests=src/test/java
+sonar.sources=src/main/java
